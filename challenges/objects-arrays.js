@@ -105,7 +105,7 @@ const uni = [];
 
 for (let i = 0; i < graduates.length; i++) {
   if (graduates.university === 'Uni');
-  uni.push(graduates[i].univeristy);
+  uni.push(graduates[i].university);
 }
 
 console.log(uni);
