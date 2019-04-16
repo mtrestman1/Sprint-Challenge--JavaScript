@@ -26,17 +26,31 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.map creates a new array with the results. 
+
 2. What is the difference between a function and a method?
+
+A method is contained inside an object. A function is independent. 
 
 3. What is closure?
 
+Closure relates to scoping and where you can access certain things. Closure is important when you have a lot of code and call variables with the same name they wont interfere with each other if they are contained.
+
 4. Describe the four rules of the 'this' keyword.
 
+Window binding- .this will be bound to console object
+Implicit binding we use dot notation to invoke the function
+Explicit binding- when we use .call, apply, or .bind
+New binding- used when were using constructor functions.  `.this` refers to the the object that is created by the constructor function.
+
 5. Why do we need super() in an extended class?
+Because were "extending" the parents attributes, super tells the parent constructor to "remember" or to be concerned with the childs attributes. 
+
+
 
 ## Project Set up
 
